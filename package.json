@@ -4,7 +4,7 @@
   "description": "transactional email",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jpatrick7926/Doordash-Email/issues"
   },
-  "homepage": "https://github.com/jpatrick7926/Doordash-Email#readme"
+  "homepage": "https://jpatrick7926.github.io/Doordash-Email",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }
